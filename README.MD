@@ -5,3 +5,11 @@ Status latihan : Pertemuan 1 Pengenalan Lingkungan Praktikum dan Kakas Pemodelan
 Identitas : 2406011
 Kakaa : draw.io
 Status Latihan : Pertemuan 2
+
+Identitas : 2406011
+Kakaa : draw.io
+Status Latihan : Pertemuan 3
+
+Identitas : 2406011
+Kakaa : draw.io
+Status Latihan : Pertemuan 4

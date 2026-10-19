@@ -10,16 +10,16 @@ Mahasiswa mengajukan peminjaman peralatan dengan memilih alat, jumlah, dan renta
 | LAB-R06 | Kepala laboratorium dapat melihat laporan peminjaman.                                             |
 
 Batas sistem dan aturan:
-• Sistem mencatat dan menyediakan informasi; perpindahan fisik alat tidak
+- Sistem mencatat dan menyediakan informasi; perpindahan fisik alat tidak
 terjadi di dalam perangkat lunak.
-• Pengguna telah terautentikasi dan memiliki hak akses sesuai peran.
-• Pengajuan yang diterima sistem berstatus Menunggu keputusan, bukan
+- Pengguna telah terautentikasi dan memiliki hak akses sesuai peran.
+- Pengajuan yang diterima sistem berstatus Menunggu keputusan, bukan
 otomatis Disetujui.
-• Pengajuan dengan peralatan tidak tersedia tidak disimpan sebagai
+- Pengajuan dengan peralatan tidak tersedia tidak disimpan sebagai
 pengajuan berhasil.
-• Pencetakan bukti tidak menjadi syarat keberhasilan pengajuan.
-• Persetujuan petugas belum dimodelkan sebagai reservasi teknis stok.
-• Pengambilan, pengembalian, kondisi alat, dan denda belum dianalisis
+- Pencetakan bukti tidak menjadi syarat keberhasilan pengajuan.
+- Persetujuan petugas belum dimodelkan sebagai reservasi teknis stok.
+- Pengambilan, pengembalian, kondisi alat, dan denda belum dianalisis
 pada potongan model ini.
 
 | Aktor                | Tujuan terhadap Sistem                                                    |

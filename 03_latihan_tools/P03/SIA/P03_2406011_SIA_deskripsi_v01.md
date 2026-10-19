@@ -10,12 +10,12 @@ Mahasiswa mengajukan KRS dengan memilih mata kuliah. Setiap pengajuan menjalanka
 | SIA-R06 | Dosen wali dapat memproses persetujuan atau penolakan KRS.                 |
 
 Batas dan asumsi:
-• Pengguna telah terautentikasi.
-• Data mata kuliah, prasyarat, dan jadwal tersedia.
-• Validasi gagal menyebabkan pengajuan belum berhasil tersimpan.
-• Unduh bukti tidak menjadi syarat keberhasilan pengajuan.
-• KRS tersimpan belum berarti disetujui.
-• Pembayaran, pengisian nilai, dan implementasi basis data berada di luar
+- Pengguna telah terautentikasi.
+- Data mata kuliah, prasyarat, dan jadwal tersedia.
+- Validasi gagal menyebabkan pengajuan belum berhasil tersimpan.
+- Unduh bukti tidak menjadi syarat keberhasilan pengajuan.
+- KRS tersimpan belum berarti disetujui.
+- Pembayaran, pengisian nilai, dan implementasi basis data berada di luar
 tugas.
 
 Deskripsi Use Case
