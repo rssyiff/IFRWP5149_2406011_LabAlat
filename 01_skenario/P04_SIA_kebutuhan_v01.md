@@ -20,3 +20,41 @@ Mahasiswa dan dosen sama-sama merupakan Civitas Akademika yang dapat melihat kal
 - Hapus Data Mahasiswa hanya berlaku untuk mahasiswa yang tidak memiliki data akademik aktif. Ketentuan ini bersifat fiktif untuk latihan.
 - Pengajuan KRS tetap digambarkan sebagai bagian dari diagram kumulatif Pertemuan 3. Pembayaran dan perancangan basis data berada di luar cakupan tugas ini.
 
+## Hasil uji konsistensi
+
+### Situasi A: Mahasiswa melihat kalender akademik tanpa garis asosiasi langsung
+
+Hasil: **tetap benar menurut diagram.** Mahasiswa adalah bentuk khusus
+dari Civitas Akademika (generalization). Civitas Akademika terhubung
+dengan SIA-UC07 Lihat Kalender Akademik melalui satu asosiasi. Karena
+aktor khusus mewarisi seluruh asosiasi aktor umum, Mahasiswa dapat
+melakukan SIA-UC07 tanpa garis sendiri. Aktor khusus dapat dipakai di
+setiap tempat aktor umum dapat dipakai (OMG UML 2.5.1). Hal yang sama
+berlaku untuk Dosen. Jika garis Mahasiswa ke SIA-UC07 digambar, garis itu
+justru berlebihan (asosiasi warisan digambar ulang).
+
+Rujukan: SIA-R07; hubungan nomor 5, 10, dan 11 pada tabel hubungan.
+
+### Situasi B: Dosen yang bukan pengampu mencoba menginput nilai
+
+Hasil yang harus terjadi: **sistem menolak.** Menurut deskripsi
+SIA-UC08, dosen harus menjadi pengampu mata kuliah (prasyarat). Pada
+langkah 1, sistem memeriksa pengampu. Alur alternatif A1 berlaku: sistem
+menolak akses input nilai dan menampilkan pesan penolakan. Pascakondisi
+gagal berlaku: tidak ada nilai baru yang tersimpan dan data nilai tidak
+berubah.
+
+Rujukan: SIA-R08; SIA-UC08 prasyarat dan alur alternatif A1.
+
+### Situasi C: Admin Akademik menghapus data mahasiswa yang masih memiliki data akademik aktif
+
+Hasil yang harus terjadi: **penghapusan tidak dilakukan.** Aturan tugas
+menetapkan bahwa Hapus Data Mahasiswa hanya untuk mahasiswa yang tidak
+memiliki data akademik aktif. Data mahasiswa tidak berubah dan tidak ada
+data yang terhapus.
+
+Catatan: aturan ini fiktif untuk latihan. Deskripsi lengkap SIA-UC13
+tidak diminta pada tugas ini, sehingga perilaku rinci penolakan (misalnya
+pesan yang ditampilkan) belum dimodelkan dan dicatat sebagai batasan.
+
+Rujukan: SIA-R11; aturan batas tugas untuk Hapus Data Mahasiswa.
