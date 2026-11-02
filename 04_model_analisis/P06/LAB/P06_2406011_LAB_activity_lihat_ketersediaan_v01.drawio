@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="xI6XjN2AVjomMXalO5GV">
+    <mxGraphModel dx="2764" dy="2011" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-5" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;" value="" vertex="1">
+          <mxGeometry height="1247" width="884" x="28" y="-65" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-6" parent="Yx47_FiZ1sO2-MqchdM6-5" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="141" width="884" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-7" parent="Yx47_FiZ1sO2-MqchdM6-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Peminjam&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="141" width="420" as="geometry">
+            <mxRectangle height="141" width="420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-8" parent="Yx47_FiZ1sO2-MqchdM6-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Sistem&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="141" width="464" x="420" as="geometry">
+            <mxRectangle height="141" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-9" parent="Yx47_FiZ1sO2-MqchdM6-5" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="1106" width="884" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-10" parent="Yx47_FiZ1sO2-MqchdM6-9" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="1106" width="420" as="geometry">
+            <mxRectangle height="1106" width="420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-11" parent="Yx47_FiZ1sO2-MqchdM6-9" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="1106" width="464" x="420" as="geometry">
+            <mxRectangle height="1106" width="464" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-3" edge="1" parent="1" source="Yx47_FiZ1sO2-MqchdM6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="Yx47_FiZ1sO2-MqchdM6-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-1" parent="1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="63" width="61" x="238.5" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-12" edge="1" parent="1" source="Yx47_FiZ1sO2-MqchdM6-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;elbow=vertical;" target="Yx47_FiZ1sO2-MqchdM6-4">
+          <mxGeometry relative="1" x="-0.2477" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Membuka fungsi lihat ketersidiaan Peralatan&lt;/font&gt;" vertex="1">
+          <mxGeometry height="118" width="282" x="128" y="259.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-14" edge="1" parent="1" source="Yx47_FiZ1sO2-MqchdM6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="Yx47_FiZ1sO2-MqchdM6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-17" connectable="0" parent="Yx47_FiZ1sO2-MqchdM6-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Tidak tersedia" vertex="1">
+          <mxGeometry relative="1" x="0.0035" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Menampilkan daftar peralatan beserta status ketersediannya&lt;/font&gt;" vertex="1">
+          <mxGeometry height="103" width="302" x="526.5" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-16" edge="1" parent="1" source="Yx47_FiZ1sO2-MqchdM6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="Yx47_FiZ1sO2-MqchdM6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-20" edge="1" parent="1" source="Yx47_FiZ1sO2-MqchdM6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="Yx47_FiZ1sO2-MqchdM6-18">
+          <mxGeometry relative="1" x="0.1966" as="geometry">
+            <Array as="points">
+              <mxPoint x="848.9" y="487" />
+              <mxPoint x="848.9" y="790" />
+            </Array>
+            <mxPoint x="892" y="485" as="sourcePoint" />
+            <mxPoint x="866.5" y="788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-23" connectable="0" parent="Yx47_FiZ1sO2-MqchdM6-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Tersedia" vertex="1">
+          <mxGeometry relative="1" x="-0.074" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Peralatan Tersedia?" vertex="1">
+          <mxGeometry height="122" width="131" x="612" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-21" edge="1" parent="1" source="Yx47_FiZ1sO2-MqchdM6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="Yx47_FiZ1sO2-MqchdM6-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#B9E0A5;" value="Menampilkan pesan tidak ada peralatan yang tersedia" vertex="1">
+          <mxGeometry height="72" width="209.5" x="572.75" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-22" edge="1" parent="1" source="Yx47_FiZ1sO2-MqchdM6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="Yx47_FiZ1sO2-MqchdM6-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="637.5" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx47_FiZ1sO2-MqchdM6-19" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="57" width="55" x="650" y="909" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pAKCa-9OYXJMfFvv8ZLo" name="Page-2">
+    <mxGraphModel dx="774" dy="451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
