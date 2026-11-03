@@ -29,3 +29,24 @@
 | Dosen Wali | Asosiasi | SIA-R06 |
 | SIA-R03 | `<<include>>` | SIA-R04 |
 | SIA-R05 | `<<extend>>` | SIA-R03 |
+
+Keputusan Include
+
+SIA-UC01 <<include>> SIA-UC02
+
+Sumber: Ajukan KRS. Tujuan: Validasi KRS.
+Alasan: setiap pengajuan menjalankan validasi (SIA-R04), sehingga Ajukan KRS tidak lengkap tanpa Validasi KRS.
+Validasi dapat berhasil atau gagal; hasil gagal tidak berarti validasi bersifat opsional.
+Letak pemanggilan: setelah mahasiswa mengirim pengajuan, sebelum pengajuan disimpan.
+Keputusan Extend
+
+SIA-UC03 <<extend>> SIA-UC01
+
+Use case dasar: Ajukan KRS. Use case tambahan: Unduh bukti pengajuan KRS.
+Extension point: Bukti pengajuan tersedia (pada konfirmasi penyimpanan).
+Kondisi: [mahasiswa memilih unduh].
+Alasan: pengajuan tetap berhasil tersimpan tanpa pengunduhan bukti (SIA-R05); unduhan hanya perilaku tambahan.
+Tidak Dimodelkan pada P03
+SIA-R01 dan SIA-R02 (jadwal kuliah): dikerjakan di Pertemuan 2, belum dimodelkan di P03.
+Validasi gagal: alur alternatif pada deskripsi Ajukan KRS, bukan extend.
+Pengguna terautentikasi: prasyarat, bukan include Login.
