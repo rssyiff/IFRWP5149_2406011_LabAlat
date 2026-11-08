@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="bMwLqiSAQF1Y6nvzYTy7">
+    <mxGraphModel dx="1948" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="laneM" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=35;horizontal=1;collapsible=0;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="1076" width="300" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="laneM" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="M1" parent="laneM" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" value="Mengirimkan pengajuan KRS" vertex="1">
+          <mxGeometry height="65" width="230" x="35" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E1" edge="1" parent="laneM" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="M1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laneS" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=35;horizontal=1;collapsible=0;" value="Sistem" vertex="1">
+          <mxGeometry height="1076" width="390" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S1" parent="laneS" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" value="Menerima data pengajuan KRS" vertex="1">
+          <mxGeometry height="60" width="260" x="65" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="S2" parent="laneS" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" value="Memeriksa kelengkapan pengajuan KRS" vertex="1">
+          <mxGeometry height="65" width="260" x="65" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="S3" parent="laneS" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" value="Memeriksa kesesuaian mata kuliah dengan ketentuan akademik" vertex="1">
+          <mxGeometry height="75" width="260" x="65" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="D1" parent="laneS" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Pengajuan KRS memenuhi ketentuan akademik?" vertex="1">
+          <mxGeometry height="105" width="120" x="135" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="S4" parent="laneS" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" value="Menyelesaikan proses validasi" vertex="1">
+          <mxGeometry height="60" width="260" x="65" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="S5" parent="laneS" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menampilkan hasil validasi KRS" vertex="1">
+          <mxGeometry height="60" width="260" x="65" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="T7JmGY-iIwqsbPHvtxpq-1" edge="1" parent="laneS" source="S6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="F1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S6" parent="laneS" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;fillColor=#f8cecc;strokeColor=#b85450;" value="Menampilkan pesan kesalahan dan informasi ketidaksesuaian KRS" vertex="1">
+          <mxGeometry height="75" width="260" x="65" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="F1" parent="laneS" style="ellipse;shape=endState;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="180" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="E3" edge="1" parent="laneS" source="S1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="S2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4" edge="1" parent="laneS" source="S2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="S3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5" edge="1" parent="laneS" source="S3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="D1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E6" edge="1" parent="laneS" source="D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="S4" value="[Ya]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E7" edge="1" parent="laneS" source="S4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="S5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8" edge="1" parent="laneS" source="S5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="S6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E9" edge="1" parent="laneS" source="D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="S6" value="[Tidak]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="660" />
+              <mxPoint x="370" y="960" />
+              <mxPoint x="195" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E2" edge="1" parent="1" source="M1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="S1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
