@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="H_uJoBvbFNMzUz6Nhbri" name="SIA-UC07 Lihat Kalender Akademik">
+    <mxGraphModel dx="1733" dy="778" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1_actor_lane" parent="1" style="swimlane;startSize=30;whiteSpace=wrap;html=1;fontSize=12;" value="Civitas Akademika" vertex="1">
+          <mxGeometry height="920" width="310" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_a" parent="p1_actor_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Membuka fungsi Lihat Kalender Akademik" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_b" parent="p1_actor_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Memilih periode atau jenis kegiatan" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="cx-drdUT8jvAVqA-8_k9-2" edge="1" parent="p1_actor_lane" source="cx-drdUT8jvAVqA-8_k9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="p1_a" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cx-drdUT8jvAVqA-8_k9-1" parent="p1_actor_lane" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_system_lane" parent="1" style="swimlane;startSize=30;whiteSpace=wrap;html=1;fontSize=12;" value="Sistem" vertex="1">
+          <mxGeometry height="920" width="410" x="370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_s" parent="p1_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Menampilkan daftar jadwal akademik" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_d" parent="p1_system_lane" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fontSize=10;" value="Ada jadwal pada periode yang dipilih?" vertex="1">
+          <mxGeometry height="80" width="90" x="110" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_yes" parent="p1_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;fillColor=light-dark(#FFFFFF,#B9E0A5);" value="Menampilkan detail jadwal sesuai pilihan" vertex="1">
+          <mxGeometry height="62" width="140" x="175" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_no" parent="p1_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;fillColor=light-dark(#FFFFFF,#FF9999);fontColor=light-dark(#000000,#000000);" value="Menampilkan pesan tidak ada jadwal pada periode tersebut" vertex="1">
+          <mxGeometry height="62" width="140" x="15" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_end" parent="p1_system_lane" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="145" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e5" edge="1" parent="p1_system_lane" source="p1_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p1_yes" value="[ada jadwal]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e6" edge="1" parent="p1_system_lane" source="p1_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p1_no" value="[tidak ada jadwal]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e7" edge="1" parent="p1_system_lane" source="p1_yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p1_end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e8" edge="1" parent="p1_system_lane" source="p1_no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p1_end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e2" edge="1" parent="1" source="p1_a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p1_s" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e3" edge="1" parent="1" source="p1_s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p1_b" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e4" edge="1" parent="1" source="p1_b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p1_d" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

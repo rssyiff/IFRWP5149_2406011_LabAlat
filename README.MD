@@ -4,15 +4,23 @@ Status latihan : Pertemuan 1 Pengenalan Lingkungan Praktikum dan Kakas Pemodelan
 
 Identitas : 2406011
 Kakas : draw.io
-Status Latihan : Pertemuan 2
+Status Latihan : Pertemuan 2 UNIFIED MODELLING LANGUAGE (UML)
 
 Identitas : 2406011
 Kakas : draw.io
-Status Latihan : Pertemuan 3
+Status Latihan : Pertemuan 3 USE CASE DIAGRAM DAN USE CASE DESCRIPTION
 
 Identitas : 2406011
 Kakas : draw.io
-Status Latihan : Pertemuan 4
-=======
+Status Latihan : Pertemuan 4 USE CASE DIAGRAM LANJUTAN: GENERALIZATION DAN
+COLLABORATION
+
+Identitas : 2406011
 Kakas : draw.io
-Status latihan : Pertemuan 3 Sistem Informasi Akademik
+Status Latihan : Pertemuan 5 SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN
+
+Identitas : 2406011
+Kakas : draw.io
+Status Latihan : Pertemuan 6 ACTIVITY DIAGRAM: DARI SKENARIO KE ALUR AKTIVITAS
+
+

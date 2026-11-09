@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="SIA-UC13 Hapus Data Mahasiswa" id="-u6G5DO_1nvvtqpmVfiL">
+    <mxGraphModel dx="1005" dy="451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p7_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;whiteSpace=wrap;" value="SIA-UC13 Hapus Data Mahasiswa" vertex="1">
+          <mxGeometry height="35" width="620" x="60" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_actor_lane" parent="1" style="swimlane;startSize=30;whiteSpace=wrap;html=1;fontSize=12;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="1060" width="310" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_a" parent="p7_actor_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Memilih data mahasiswa yang akan dihapus" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_a2" parent="p7_actor_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;fillColor=light-dark(#FFFFFF,#B9E0A5);" value="Mengonfirmasi penghapusan" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="xxo4Kbz337R6uv5wuJEu-2" edge="1" parent="p7_actor_lane" source="xxo4Kbz337R6uv5wuJEu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="p7_a" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xxo4Kbz337R6uv5wuJEu-1" parent="p7_actor_lane" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="135" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_system_lane" parent="1" style="swimlane;startSize=30;whiteSpace=wrap;html=1;fontSize=12;" value="Sistem" vertex="1">
+          <mxGeometry height="1060" width="350" x="370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_s1" parent="p7_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Memeriksa apakah terdapat data akademik aktif" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_d" parent="p7_system_lane" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fontSize=10;" value="Masih ada data akademik aktif?" vertex="1">
+          <mxGeometry height="80" width="90" x="110" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_s2" parent="p7_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Menghapus data mahasiswa dan menampilkan konfirmasi" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_e" parent="p7_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;fillColor=light-dark(#FFFFFF,#FF9999);fontColor=light-dark(#000000,#000000);" value="Menolak penghapusan dan menampilkan pesan data akademik masih aktif" vertex="1">
+          <mxGeometry height="62" width="140" x="175" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_end" parent="p7_system_lane" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_e2" edge="1" parent="1" source="p7_a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p7_s1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_e3" edge="1" parent="1" source="p7_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p7_d" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_e4" edge="1" parent="1" source="p7_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p7_a2" value="[tidak ada data aktif]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_e5" edge="1" parent="1" source="p7_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="p7_e" value="[ada data aktif]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_e6" edge="1" parent="1" source="p7_a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p7_s2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_e7" edge="1" parent="1" source="p7_s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p7_end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_e8" edge="1" parent="1" source="p7_e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p7_end" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7_note" parent="1" style="shape=note;whiteSpace=wrap;html=1;fontSize=10;size=15;backgroundOutline=1;" value="Use case khusus dari SIA-UC10. Penghapusan hanya dilakukan jika tidak ada data akademik aktif." vertex="1">
+          <mxGeometry height="45" width="620" x="60" y="1150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

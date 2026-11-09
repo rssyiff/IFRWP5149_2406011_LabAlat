@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="SIA-UC12 Ubah Data Mahasiswa" id="-y8KdIiqeHA9Zv0uDQHV">
+    <mxGraphModel dx="2513" dy="1128" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p6_actor_lane" parent="1" style="swimlane;startSize=30;whiteSpace=wrap;html=1;fontSize=12;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="1060" width="310" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_a" parent="p6_actor_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Memilih data mahasiswa yang akan diubah" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_a2" parent="p6_actor_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Mengubah data mahasiswa" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_a3" parent="p6_actor_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Menyimpan perubahan" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="G82TwzMQKCOjNPYvl2ri-3" edge="1" parent="p6_actor_lane" source="G82TwzMQKCOjNPYvl2ri-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="p6_a" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G82TwzMQKCOjNPYvl2ri-2" parent="p6_actor_lane" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_system_lane" parent="1" style="swimlane;startSize=30;whiteSpace=wrap;html=1;fontSize=12;" value="Sistem" vertex="1">
+          <mxGeometry height="1060" width="420" x="370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_d" parent="p6_system_lane" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fontSize=10;" value="Data mahasiswa ditemukan?" vertex="1">
+          <mxGeometry height="80" width="90" x="105" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_s1" parent="p6_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;fillColor=light-dark(#FFFFFF,#B9E0A5);" value="Menampilkan data mahasiswa saat ini" vertex="1">
+          <mxGeometry height="62" width="140" x="20" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e" parent="p6_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;fillColor=light-dark(#FFFFFF,#FF9999);fontColor=light-dark(#000000,#000000);" value="Menampilkan pesan data mahasiswa tidak ditemukan" vertex="1">
+          <mxGeometry height="62" width="140" x="250" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_s2" parent="p6_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Memeriksa perubahan data" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_s3" parent="p6_system_lane" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=11;" value="Menyimpan data yang diubah dan menampilkan konfirmasi" vertex="1">
+          <mxGeometry height="62" width="140" x="80" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_end" parent="p6_system_lane" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e2" edge="1" parent="1" source="p6_a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_d" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e3" edge="1" parent="1" source="p6_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_s1" value="[ditemukan]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6_e4" edge="1" parent="1" source="p6_d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_e" value="[tidak ditemukan]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e5" edge="1" parent="1" source="p6_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e6" edge="1" parent="1" source="p6_a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_s2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e7" edge="1" parent="1" source="p6_s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_a3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e8" edge="1" parent="1" source="p6_a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_s3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e9" edge="1" parent="1" source="p6_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_e10" edge="1" parent="1" source="p6_e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1.2;fontSize=10;labelBackgroundColor=#ffffff;" target="p6_end" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
